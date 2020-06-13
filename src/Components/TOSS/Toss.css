@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{ box-sizing: content-box; font-family:  'Lato', sans-serif;}
+.Toss{ margin-left: auto;margin-right: auto; width: 90%; height: 150%;  text-align: center; margin-top:15%;background-image: linear-gradient(to bottom,#36D88A, #00B25C);;border-radius: 2px;border:black; font-size: larger;}
+#btn{width: 45%;background-color:#09173C;color: white;padding: 14px 20px;margin: 15px 0;border: black;border-radius: 4px;cursor: pointer;font-size: 20px;}
+
+.bol{color:#09173C;font-size: 50px;}
+#btn{font-size: 30px;animation: movement 2s ease-in infinite;}
+@keyframes movement{
+    0%,100%{opacity: 0.3;}
+    50%{opacity: 1;}
+}
+input[type=button]{
+    background-color:#09173C ;
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 20%;
+    color: white;
+    padding: 10Px;
+    cursor: pointer;
+    }    
+    input[type=button]:hover {
+        background-color: white;
+        color:#17795E;
+      } 

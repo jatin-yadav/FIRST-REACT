@@ -1,0 +1,19 @@
+input[type=button]{
+    background-color:#A5066A ;
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 20%;
+    color: white;
+    padding: 10Px;
+    cursor: pointer;
+    }    
+    input[type=button]:hover {
+        background-color: white;
+        color:#A5066A;
+      }  
+
+      @media (max-width: 850px){
+        .INSTRUCT{font-size: 10px;}
+        
+
+      }

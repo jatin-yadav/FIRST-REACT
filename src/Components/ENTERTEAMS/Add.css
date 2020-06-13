@@ -1,0 +1,10 @@
+.Add{display: flex;justify-content: space-around;margin: 0px;}
+.input>form>input[type=text]{ border: 2px solid white;width: 60%; padding: 10Px;}
+.input>form>button{background-color: violet;border: 2px solid white;color: white;padding: 10Px;cursor: pointer;}
+#Aone{margin-right: 5%;}
+@media(max-width: 850px){
+    .Add{font-size: 12px;flex-direction: column;}
+    .input>form>input[type=text]{width:40%;padding: 3px;}
+    .input>form>button{width:40%;padding: 3px;}
+}
+ 

@@ -1,0 +1,28 @@
+.Hwrap{background-image: url('../HOME/home.jpeg') ;width: 100%;background-attachment:fixed; background-size: 450px; background-position-x: 85%; background-position-y: 50%; background-repeat: no-repeat;height: 100vh;}
+.HOME{margin: 5%; text-align: center;}
+.home{display:flex;justify-content: space-between;
+    margin-top: 4%; font-size: 25px; }
+    input[type=button]{
+        background-color:#a02e76 ;
+        border: 2px solid rgb(245, 240, 240);
+        border-radius: 40px;
+        width: 20%;
+        color: white;
+        cursor: pointer;
+        }    
+
+        input[type=button]:hover {
+            background-color: white;
+            color:#A5066A;
+          } 
+  
+         @media (max-width: 850px){
+              .home{font-size: 15px;}
+              .Hcontent{font-size: 15px;}
+              .Heading{font-size: 10px;}
+              .Hwrap{background-size: 40%;background-position-x: 50%;background-position-y: 65% ;}
+              .Gstart>.btn{font-size:10px;}
+            }
+              
+
+          

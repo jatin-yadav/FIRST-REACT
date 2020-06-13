@@ -1,0 +1,10 @@
+.link{color: whitesmoke;}
+.link:hover{color:#617D8B;}
+.Navbar{ font-size: 25px;background-color: #08192D;display: flex; justify-content: space-between; align-items: center;}
+ul{display: flex; list-style-type: none;}
+ul>li{margin: 0 20px;    padding: 10px;}
+
+
+
+
+

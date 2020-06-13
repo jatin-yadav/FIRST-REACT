@@ -1,0 +1,26 @@
+.RMain{text-align: center;font: outline;font-size: 120%;color:whitesmoke;text-shadow: 2px 2px 5px #000000;}
+.RTeams{display: flex;justify-content: space-around;margin: 1%;}
+.RScore{display: flex;justify-content: space-around;}
+.shape{ width: 25%;padding: 2%;border-radius: 7px; text-align: center;text-shadow:1px 1px 5px aqua;}
+.shape2{ width: 25%;font-size: large; border-radius: 15px; text-align: center;}
+.RCongo {background-color:#1C0028;opacity: 0.8; width: 95%;font-size: 40px;
+    border-radius: 15px; text-align: center;margin: 2%;text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;}   
+.RFinal {background-color:#1C0028;opacity: 0.7; width:95%;font-size:35px; 
+        border-radius: 15px; text-align: center;margin: 2%;text-shadow: 0 0 3px #FF0000;} 
+.RVs{background-color:rgba(25, 55, 78, 0.7); width: 8%;padding: 2%; background: linear-gradient(#a02e76 );
+    border-radius: 50px; text-align: center;} 
+.Rbtn{background-color:#F18681;opacity: 0.6; width: 5%;padding: 2%;font-size:large;font-style: oblique;
+border-radius: 90px; text-align: center;box-shadow: 10px 15px 20px rgba(241,134,129,0.5);}
+
+@media (max-width: 850px){
+    .RMain{font-size: 15px;}
+    .RTeams{font-size: 10px;}
+    .RScore{font-size: 10px;}
+    .RCongo{font-size: 35px;}
+    .RFinal{font-size: 35x;}
+    .RVs{font-size: 15px;}
+    .Rbtn{font-size: 6px;}
+    .shape{font-size: 13px;}
+    .shape2{font-size: 17px;}
+}
+                  

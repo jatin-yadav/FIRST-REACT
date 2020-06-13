@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{ box-sizing: content-box; font-family:  'Lato', sans-serif;}
+
+.Pbasic{color: #ffffff ;transform: translateX();background-repeat: no-repeat;height: 100vh;margin: 10px; }
+.playbutton{display: flex; justify-content: space-between;font-size: 20px;}
+.Pflextry{display: flex;justify-content:space-around;text-align: center;}
+#Pbtn{background-image: linear-gradient(#9ee982,#7de0d8);color: rgb(5, 4, 4);text-shadow: 2px 4px 8px rgb(218, 164, 164); margin-top:60px;margin: 20px ;border: none;border-radius: 15px;cursor: pointer; font-size: 20px;height: 1.5cm;width: 3cm;}
+.Pmsg{font-size: 30px;background-color:  #a8d8ea;  border-width: 2px;align-items: center;color: black;margin-top: 15%;}
+.Ptext1{text-align: left;}
+.Ptext2{text-align: left;}
+.main{font-size:50px;}
+.list{color: black;background-color: rgb(201, 152, 78);font-style: oblique;font-weight: 1000;}
+.head{color: black;background-color:rgb(238, 233, 217);text-shadow: 2px 2px 4px  black;font-size:35px;}
+.playersB{float: right;margin-bottom: 10px; }
+.playersA{float: left; }
+.Pclick{border: none;background-image: linear-gradient(#1196ee,#1697a3);text-shadow: 2px 4px 8px black; color: rgb(255, 247, 247);  margin-top:10%; border-radius: 3mm;font-size:30px;margin-bottom: 30%;}
+.Pscorepop{width: 35%;text-align: center;}
+.Pheading{animation: movement 0.6s ease-in infinite;font-size:50px;text-shadow:2px 4px 8px black;}
+.main{font-style: oblique;font-size:30px;}
+.PresultShow{text-align: center;}
+
+
+@keyframes movement{
+    0%,100%{opacity: 0.2;}
+    50%{opacity: 1;}
+
+}
+
+@media(max-width:850px){
+    .Pbasic{font-size: 10px;}
+    
+    .Pheading{font-size: 20px;}
+    .Navbar{font-size: 10px;}
+    #Pbtn{font-size:10px;height: 0.5cm;width:1.5cm;}
+    .head{font-size: 10px;}
+    .list{margin-left:none;margin-right: none;}
+    .Pflextry{flex-direction:row;margin-bottom: 1.5px;margin-top: 30px;}
+    .Pmsg{font-size:10px;margin-top:60px;margin-left: 3px;margin-right: 3px;}
+    .PresultShow{font-size:5px;margin-left: 3px;margin-right: 3px;}
+    .Ptext1{font-size:10px;}
+    .Ptext2{font-size:10px}
+    .playersB{font-size:10px;margin-right: 0cm;}
+    .playersA{font-size:10px;margin-left: 0cm;}
+    .Pclick{font-size: 10px;}
+    input[type=button]{font-size:5px;}
+    .main{font-size: 20px;}
+    input[type=button]{font-size:15px;margin-top: 10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
